@@ -2,12 +2,17 @@
     margin: 0;
     padding: 0;
 }
- /*Selector CLASS*/
+/*Selector CLASS*/
 .texto{
     text-align: justify;
     margin: 0px 18px;
+    padding: 25px;
 }
-.imagen
+.imagen{
+    display: inline-block;
+    padding-top: 110px;
+
+}
 /*Selector ID*/
 #cabecera{
     height: 15%;
@@ -65,18 +70,39 @@ h3{
 }
 p{
     margin-top: 16px;
+    padding-top: 21px;
     
 }
 ul{
     text-align: center;
+    padding-top: 15px;
 }
 li{
     display: inline;
     margin: 20px;
+    text-decoration: none;
 
 }
 img{
     height: 100px;
     width: 100px;
+    border: 1px solid;
+    margin: 0px 5px;
 }
+.aside{
+    display: list-item;
+    margin: 15px 175px;
+    padding: 6px 0px;
 
+}
+.img{
+    padding: 50px 175px;
+}
+.titulo{
+    text-align: center;
+    font-size: larger;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
